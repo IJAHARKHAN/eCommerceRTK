@@ -1,6 +1,7 @@
 import React from "react";
 import { Categories } from "../assets/mokeData";
 import heroImages from '../assets/Images/heroImage.jpg'
+import InfoSection from "../components/InfoSection";
 
 
 function Home() {
@@ -30,6 +31,9 @@ function Home() {
             </div>
           </div>
     </div>
+
+<InfoSection/>
+
     </div>
   );
 }
