@@ -14,7 +14,7 @@ function Home() {
                 <li key={index} className="flex items-center">
                   <div className="w-2 h-2 border border-red-500 rounded-full mr-2"></div>
                   {category}
-                  </li>
+                  </li>   
               ))
                 }              
             </ul>  
